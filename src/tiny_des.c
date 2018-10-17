@@ -510,7 +510,7 @@ void des_crypt_ecb(des_context * ctx, const unsigned char input[8], unsigned cha
  */
 void des_crypt_cbc(des_context * ctx,
 		int mode,
-		size_t length,
+		int length,
 		unsigned char iv[8],
 		const unsigned char *input,
 		unsigned char *output)
@@ -590,7 +590,7 @@ void des3_crypt_ecb(des3_context * ctx,
  */
 void des3_crypt_cbc(des3_context * ctx,
 		int mode,
-		size_t length,
+		int length,
 		unsigned char iv[8],
 		const unsigned char *input,
 		unsigned char *output)

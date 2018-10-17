@@ -128,7 +128,7 @@ extern "C" {
 	 */
 	void des_crypt_cbc(des_context * ctx,
 			   int mode,
-			   size_t length,
+			   int length,
 			   unsigned char iv[8],
 			   const unsigned char *input, unsigned char *output);
 
@@ -154,7 +154,7 @@ extern "C" {
 	 */
 	void des3_crypt_cbc(des3_context * ctx,
 			    int mode,
-			    size_t length,
+			    int length,
 			    unsigned char iv[8],
 			    const unsigned char *input, unsigned char *output);
 
